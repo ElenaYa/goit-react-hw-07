@@ -1,0 +1,29 @@
+.icon {
+    margin-right: 8px;
+  }
+  
+  .contactContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 220px;
+    padding: 16px;
+    border-radius: 6px;
+    border: 2px solid rgb(74, 71, 71);
+    background-color: rgb(245, 235, 235);
+  }
+  
+  .text {
+    font-weight: 600;
+  }
+  .button {
+    padding: 6px 8px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(196, 189, 189);
+    transition: background-color 250ms ease-in;
+  }
+.button:hover,
+.button:focus {
+  background-color: #debfbf;
+}
