@@ -9,7 +9,7 @@ import toast from 'react-hot-toast';
 const contactSchema = Yup.object().shape({
   name: Yup.string().min(3, 'Too Short!').max(50, 'Too Long!').required('Required field'),
         number: Yup.string().min(3, 'Too Short!').max(50, 'Too Long!').
-            matches(/^[0-9]{3}-[0-9]{2}-[0-9]{2}$/, {
+            matches(/^[0-9]{3}-[0-9]{3}-[0-9]{4}$/, {
                 message: "Invalid phone number",
                 excludeEmptyString: true,
             })
