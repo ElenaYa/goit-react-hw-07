@@ -58,8 +58,8 @@ export default function ContactForm () {
                 <div>
                     <label className={css.text} htmlFor={numberFieldId}>Number</label>
                     <Field className={css.input} type="text" name="number" id={numberFieldId}
-                    pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}"
-                    placeholder="XXX-XX-XX"/>
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    placeholder="XXX-XXX-XXXX"/>
                     <ErrorMessage className={css.error} name="name" component="span" style={{ color: "red" }} />
                 </div>
                 <button className={css.button} type="submit">
